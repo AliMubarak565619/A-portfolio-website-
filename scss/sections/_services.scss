@@ -1,0 +1,47 @@
+@use '../custom' as *;
+.services{
+    position: relative;
+    padding: 1rem 0;
+
+    &__content {
+        padding: 1rem;
+        margin-top: 5rem;
+
+        p {
+            font-size: 1rem;
+
+
+            @include media-breakpoint-down(sm) {
+                font-size: 0.8rem;
+            }
+        }
+
+        @include media-breakpoint-down(sm) {
+            margin-top: 0;
+        }
+
+        .icon {
+            font-size: 2.2rem;
+            color: $primary;
+            display: block;
+
+            @include media-breakpoint-down(sm) {
+                font-size: 1rem;
+            }
+
+        }
+    }
+
+
+    &__pic {
+        max-width: 100%;
+    }
+}
+
+.css-content {
+ @media (max-width: 767.98px) {
+    flex-direction: column-reverse;
+
+        }
+      } 
+    

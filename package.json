@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "bootstrap with sass for making a portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"sass scss:assets/css"
+  },
+  "keywords": [
+    "bootstrap",
+    "sass",
+    "learn-sass",
+    "learn-bootstrap",
+    "portfolio"
+  ],
+  "author": "Ali Mubarak",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.70.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.1",
+    "autoprefixer": "^10.4.17",
+    "bootstrap": "^5.3.2",
+    "postcss-cli": "^11.0.0"
+  }
+}
